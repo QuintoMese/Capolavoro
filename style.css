@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+.bandiera {
+    height: 20px;
+    width: 20px;
+}
+
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    padding: 10px;
+    background: #383838;
+}
+
+/* Header/Blog Title */
+.header {
+    padding: 30px;
+    text-align: center;
+    background: #383838;
+    color: #f2f2f2;
+}
+
+.header h1 {
+    font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    border-color: #4e418a;
+    border-width: 600px;
+    border-radius: 40px;
+    overflow: hidden;
+    background-color: #4e418a;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.rules {
+    text-align: left;
+    padding: 20px;
+    margin-top: 20px;
+    color: #f2f2f2;
+}
+
+.campotris {
+    text-align: center;
+    float: center;
+    padding: 10px;
+    width: 45%;
+    height: 45%;
+}
+
+/* Footer */
+.footer {
+    color: #f2f2f2;
+    padding: 20px;
+    font-size: small;
+    text-align: center;
+    background: #4e418a;
+    margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+ .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+ }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+ .topnav a {
+    float: none;
+    width: 100%;
+ }
+}
+
+ul {
+    list-style-image: none;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="shortcut icon" href="risorse/SuperTrisLogo.png"/>
+        <title>
+            Super tic-tac-toe
+        </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="header">
+            <img src="risorse/SuperTrisLogo.png">
+        </div>
+
+        <div class="topnav">
+            <a href="homeENG.html">Rules</a>
+            <a href="giocoENG.html">Play</a>
+            <a href="index.html" style="float:right"><img class="bandiera" src="risorse/bandieraItaliana.png" alt="italian translation"></a>
+        </div>
+
+        <div class="rules">
+            Super tic-tac-toe is a variant of the classic tic-tac-toe game: in each cell of the classic 3x3 grid, there's another 3x3 grid. <br>
+            <img class="campotris" src="risorse/campoSuperTris.png" alt="Super tic-tac-toe board"> <br>
+            <ul>
+                <li>The first player plays an X wherever they want on the board;</li>
+                <li>Depending on where X played their move, O is forced to respond in the small board indicated by the previous move
+                    (e.g. X plays in a center square of the top left 3x3 grid, O must play in the central 3x3 grid);</li>
+                <li>The second player will do the same, now forcing X to play in a specific small board.</li>
+                <li>Whenever a small board is completed, it counts as won by the player who would've normally won the tic-tac-toe game played inside it.
+                    (if it's a tie, the small board stays unclaimed).</li>
+                <li>If a player is forced to play in a completed small board, they can play wherever they want.</li>
+                <li>The game ends either when a player wins the larger board, or when there are no more legal moves (in which case it's a draw).</li>
+            </ul>
+            
+        </div>
+
+
+        <div class="footer">
+            <h2>By Andrea Maggio</h2>
+        </div>
+
+    </body>
+</html>
